@@ -2,8 +2,8 @@ class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
         CTO = { ")" : "(", 
-                        "]" : "[", 
-                        "}" : "{" }
+                "]" : "[", 
+                "}" : "{" }
         
         for c in s:
             if c in CTO:
